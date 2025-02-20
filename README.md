@@ -1,6 +1,6 @@
 # Quiz App
 
-A simple and interactive quiz application built with React.js that includes multiple-choice and integer-based questions, a countdown timer, score tracking, and an attempt history feature Save quiz history using IndexedDB.
+A simple and interactive quiz application built with React.js that includes multiple-choice and integer-based questions, a countdown timer, score tracking, and an attempt history feature.
 
 ## Features
 
@@ -10,6 +10,7 @@ A simple and interactive quiz application built with React.js that includes mult
 - 📊 **Score Tracking**: Displays the user's score at the end of the quiz.
 - 🔄 **Restart Quiz**: Users can restart the quiz anytime.
 - 📜 **Attempt History**: Stores previous quiz attempts using IndexedDB.
+- 💾 **Save Quiz History**: Quiz attempts are saved in IndexedDB, allowing users to review their past performances.
 
 ## Installation & Running Locally
 
