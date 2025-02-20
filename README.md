@@ -1,8 +1,41 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive quiz application built with React.js that includes multiple-choice and integer-based questions, a countdown timer, score tracking, and an attempt history feature Save quiz history using IndexedDB.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📌 **Multiple Question Types**: Supports both multiple-choice and numeric input questions.
+- ⏳ **Timer Functionality**: Each question has a countdown timer (default: 30 seconds).
+- ✅ **Instant Feedback**: Correct and incorrect answers are indicated visually.
+- 📊 **Score Tracking**: Displays the user's score at the end of the quiz.
+- 🔄 **Restart Quiz**: Users can restart the quiz anytime.
+- 📜 **Attempt History**: Stores previous quiz attempts using IndexedDB.
+
+## Installation & Running Locally
+
+To run the project on your local machine:
+
+1. **Clone the repository:**
+   ```sh
+   git clone <repository-url>
+   cd quiz-app
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```sh
+   npm run div
+   ```
+
+4. Open **http://localhost:3000/** in your browser to view the quiz app.
+
+## Deployment
+
+The app is deployed online. You can access it here:
+
+https://agquiz.netlify.app/
+
